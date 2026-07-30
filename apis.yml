@@ -1,8 +1,24 @@
 aid: metalogix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metalogix.png
 name: Metalogix
-description: 'Metalogix is a company surfaced as a portfolio company of bessemer-venture-partners, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Metalogix was an independent software vendor providing migration, management, and
+  security solutions for Microsoft SharePoint and Office 365, best known for its Content Matrix
+  SharePoint-to-SharePoint migration tool. Quest Software acquired Metalogix in June 2018, and the
+  metalogix.com domain now redirects to Quest, where the products live on as the Metalogix Content
+  Matrix line. The tooling is delivered as a desktop console with PowerShell cmdlets that drive the
+  supported SharePoint APIs; it does not publish an independent public REST API, OpenAPI definition,
+  developer portal, or client SDK. This profile is retained for network/portfolio lineage.'
 url: https://raw.githubusercontent.com/api-evangelist/metalogix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +27,20 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: quest-software
+x-acquired-date: '2018-06-29'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- SharePoint
+- Microsoft 365
+- Content Migration
+- Content Management
+- Enterprise Software
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.metalogix.com/
+- type: Product
+  url: https://www.quest.com/metalogix/
+- type: Documentation
+  url: https://support.quest.com/technical-documents/content-matrix
+- type: Support
+  url: https://www.quest.com/community/metalogix-content-matrix
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
